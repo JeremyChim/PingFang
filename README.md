@@ -1,4 +1,4 @@
-## 1. Windows去除“- 快捷方式”字样
+## 1. 去除“快捷方式”字样
 ```reg
 Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer]
