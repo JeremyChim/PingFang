@@ -1,3 +1,11 @@
+## 1. Windows去除“- 快捷方式”字样
+```reg
+Windows Registry Editor Version 5.00
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer]
+"Link"=hex:00,00,00,00
+```
+
+## 2. Office下载
 **一、Office2021下载**
 
 1、 专业增强版（强烈推荐）：
